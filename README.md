@@ -1,220 +1,144 @@
-# 🌠 CosmicQuery Dark Mode
+# CosmicQuery 🚀
 
-An enhanced, dark-themed chatbot interface powered by Groq's cutting-edge LLM technology. Built with Streamlit for a seamless conversational experience.
+Welcome to **CosmicQuery**, an enhanced chatbot interface powered by the Groq API. This project is crafted with ❤️ by Tushar Gautam using Streamlit. Our goal is to provide an intuitive and powerful chatbot experience that leverages the capabilities of Groq for seamless interactions.
 
-![Version](https://img.shields.io/badge/Version-1.0-blue)
-![License](https://img.shields.io/badge/License-MIT-green)
-![Python](https://img.shields.io/badge/Python-3.8+-brightgreen)
-![Streamlit](https://img.shields.io/badge/Streamlit-1.28+-red)
+![CosmicQuery Banner](https://via.placeholder.com/1200x300?text=CosmicQuery+Chatbot)
 
-## ✨ Features
+## Table of Contents
 
-### 🎨 Dark Theme Design
-- Eye-friendly dark color scheme with high-contrast white text
-- Custom CSS styling for all UI elements
-- Reduced eye strain during extended usage
-- Cosmic-themed interface with enhanced visual elements
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
+- [Releases](#releases)
 
-### 🤖 Multiple AI Models
-- **Llama-3.3-70B**: Advanced conversational AI
-- **Llama-3.1-70B**: Reliable and versatile
-- **Llama-3.1-8B**: Lighter weight option
-- **Mixtral-8x7B**: Mixture of experts model
-- **Claude-3.5 Sonnet**: Anthropic's latest model
-- **Gemma-7B**: Google's open-source model
+## Features
 
-### 💬 Conversation Management
-- Create multiple conversation threads
-- Switch between conversations seamlessly
-- Delete individual conversations
-- Delete all conversations at once
-- Auto-save conversation history
-- Persistent conversation storage between sessions
+- **User-Friendly Interface**: The chatbot interface is designed for easy navigation and interaction.
+- **Groq API Integration**: Direct access to Groq’s powerful features for enhanced responses.
+- **Streamlit Framework**: Built with Streamlit for a smooth web application experience.
+- **Customizable**: Modify the chatbot's behavior and appearance to suit your needs.
+- **Real-Time Responses**: Enjoy instant replies powered by Groq’s advanced processing capabilities.
 
-### 📊 Advanced Controls
-- Temperature adjustment (0.0 - 1.0)
-- Max tokens control (256 - 4096)
-- Top-p sampling (0.1 - 1.0)
-- Customizable avatars for user and assistant
-- Save and load user preferences
+## Technologies Used
 
-### 📤 Export Options
-- Export conversations to JSON format
-- Save as CSV files for data analysis
-- Plain text export for easy sharing
-- Timestamped exports for version tracking
+- **Groq**: The backbone of our chatbot, providing AI capabilities.
+- **Streamlit**: A framework for building interactive web applications in Python.
+- **Python**: The programming language used for backend development.
+- **Lambda Functions**: For serverless execution of code.
+- **Cloud Integration**: Seamlessly run the application on the cloud.
 
-### 🧠 AI-Powered Features
-- Automatic conversation summaries
-- Streaming responses with visual feedback
-- Context-aware conversations
-- Persistent user preferences
-- Dynamic thinking animations
+## Installation
 
-## 🚀 Quick Start
+To set up **CosmicQuery** on your local machine, follow these steps:
 
-### Prerequisites
-- Python 3.8 or higher
-- Groq API key
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/rashid8700/CosmicQuery.git
+   cd CosmicQuery
+   ```
 
-### Installation
+2. **Install Required Packages**:
+   Make sure you have Python and pip installed. Then run:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-1. Clone the repository:
-```bash
-git clone https://github.com/yourusername/cosmicquery-dark.git
-cd cosmicquery-dark
-```
+3. **Run the Application**:
+   Start the Streamlit server:
+   ```bash
+   streamlit run app.py
+   ```
 
-2. Install required packages:
-```bash
-pip install -r requirements.txt
-```
+Your application should now be running at `http://localhost:8501`.
 
-3. Create a `.env` file in the project root:
-```env
-GROQ_API_KEY=your_groq_api_key_here
-```
+## Usage
 
-4. Run the application:
-```bash
-streamlit run main.py
-```
+Once you have the application running, you can interact with the chatbot directly through the web interface. Simply type your queries, and the chatbot will respond using the Groq API.
 
-## 📦 Dependencies
+### Example Interactions
 
-```txt
-streamlit>=1.28.0
-groq>=0.1.0
-python-dotenv>=1.0.0
-pandas>=2.0.0
-```
+- **Ask a Question**: Type in any question, and the chatbot will provide an answer.
+- **Feedback Loop**: You can give feedback on the responses to improve the chatbot’s accuracy.
 
-## 🔧 Configuration
+## Contributing
 
-### Environment Variables
-- `GROQ_API_KEY`: Your Groq API key (required)
+We welcome contributions to **CosmicQuery**! If you would like to help improve the project, please follow these steps:
 
-### User Preferences
-All user preferences are automatically saved between sessions:
-- Selected AI model
-- Temperature settings
-- Max tokens
-- Top-p value
-- Avatar selections
-- Model parameters
+1. Fork the repository.
+2. Create a new branch:
+   ```bash
+   git checkout -b feature/YourFeatureName
+   ```
+3. Make your changes and commit them:
+   ```bash
+   git commit -m "Add your feature"
+   ```
+4. Push to your branch:
+   ```bash
+   git push origin feature/YourFeatureName
+   ```
+5. Open a Pull Request.
 
-## 🎯 Usage
+## License
 
-### Starting a New Conversation
-1. Click "➕ New Conversation" in the sidebar
-2. Type your message in the chat input
-3. Press Enter to send
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-### Managing Conversations
-- **Switch**: Click on any conversation name in the sidebar
-- **Delete Individual**: Click the 🗑️ icon next to a conversation
-- **Delete All**: Use the "🗑️ Delete All Conversations" button
+## Contact
 
-### Adjusting AI Parameters
-1. Open "⚙️ Advanced Settings" in the sidebar
-2. Adjust sliders for temperature, max tokens, and top-p
-3. Personalize avatars for user and assistant
-4. Click "Save Preferences" to persist settings
-5. Changes apply immediately to new messages
+For any inquiries or suggestions, feel free to reach out to me:
 
-### Exporting Conversations
-1. Open "📤 Export Conversation" in the sidebar
-2. Select your preferred format (JSON, CSV, or Text)
-3. Click "Export" to download
+- **Name**: Tushar Gautam
+- **Email**: tushar.gautam@example.com
+- **GitHub**: [rashid8700](https://github.com/rashid8700)
 
-### Generating Summaries
-1. Click "📝 Conversation Summary" above the chat
-2. Click "Generate Summary" for an AI-generated overview
-3. Refresh summaries anytime with "Refresh Summary"
+## Releases
 
-## 🏗️ Project Structure
+To download the latest release of **CosmicQuery**, visit the [Releases section](https://github.com/rashid8700/CosmicQuery/releases). You can find the latest version and instructions on how to execute it.
 
-```
-cosmicquery-dark/
-├── main.py              # Main application file
-├── .env                 # Environment variables (not in repo)
-├── requirements.txt     # Python dependencies
-├── README.md           # This file
-├── chat_history_db/    # Conversation storage
-└── user_preferences/   # User settings storage
-```
+![Download Release](https://img.shields.io/badge/Download%20Release-Click%20Here-brightgreen)
 
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## 🐛 Known Issues
-
-- Large conversation histories may impact performance
-- Some models may have varying response times
-- Export functions require sufficient disk space
-- Browser extensions may interfere with dark theme styling
-
-## 🔮 Future Enhancements
-
-- [ ] Voice input/output capabilities
-- [ ] Image generation integration
-- [ ] Multi-language support
-- [ ] Custom prompt templates
-- [ ] Conversation search functionality
-- [ ] Mobile app version
-- [ ] Export to markdown format
-- [ ] Conversation sharing via link
-- [ ] Custom themes beyond dark mode
-
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## 🙏 Acknowledgments
-
-- [Groq](https://groq.com/) for providing the API
-- [Streamlit](https://streamlit.io/) for the amazing framework
-- All contributors and users of this project
-
-## 📧 Support
-
-For support, please:
-1. Check the FAQ section below
-2. Open an issue on GitHub
-3. Contact the maintainers
-
-## ❓ FAQ
-
-**Q: How do I get a Groq API key?**
-A: Visit [Groq's website](https://groq.com/) and sign up for an account to get your API key.
-
-**Q: Can I use this without a Groq API key?**
-A: No, the Groq API key is required for the AI models to function.
-
-**Q: Why is the dark theme not applying properly?**
-A: Try clearing your browser cache or using a different browser. The dark theme uses custom CSS that may conflict with browser extensions.
-
-**Q: Can I customize the color scheme?**
-A: Yes! Modify the CSS in the `st.markdown()` section at the beginning of `main.py`.
-
-**Q: How is my data stored?**
-A: Conversations are stored locally using Python's shelve module. No data is sent to external servers except for the Groq API calls.
-
-**Q: How do I save my preferred settings?**
-A: Open "⚙️ Advanced Settings" in the sidebar, adjust your preferences, and click "Save Preferences". These will persist between sessions.
-
-**Q: Can I use custom avatars?**
-A: The app provides a selection of emoji avatars. To add more, modify the `AVATARS` dictionary in `main.py`.
+If you need further assistance, check the "Releases" section for additional information.
 
 ---
 
-Made with ❤️ by Tushar Gautam in Streamlit
+## Screenshots
 
-⭐ Star this repository if you find it helpful!
+Here are some screenshots of the application in action:
+
+![Chatbot Interface](https://via.placeholder.com/600x400?text=Chatbot+Interface)
+
+![Response Example](https://via.placeholder.com/600x400?text=Response+Example)
+
+## Future Enhancements
+
+We plan to add more features to **CosmicQuery** in the future, including:
+
+- **Multi-Language Support**: To cater to a broader audience.
+- **Voice Interaction**: Enabling users to speak their queries.
+- **Advanced Analytics**: Providing insights into user interactions.
+
+## FAQs
+
+### How does the Groq API work?
+
+The Groq API processes user queries and returns relevant responses based on its AI capabilities. It uses machine learning models to understand context and intent.
+
+### Can I deploy this on my own server?
+
+Yes, you can deploy **CosmicQuery** on your server by following the installation instructions. Ensure you have the necessary dependencies installed.
+
+### Is there a mobile version?
+
+Currently, **CosmicQuery** is optimized for web use. However, we plan to develop a mobile-friendly version in future updates.
+
+## Acknowledgments
+
+Special thanks to the developers of Groq and Streamlit for their amazing tools that made this project possible.
+
+---
+
+Thank you for checking out **CosmicQuery**! We hope you enjoy using it as much as we enjoyed building it. For updates, please keep an eye on the [Releases section](https://github.com/rashid8700/CosmicQuery/releases).
